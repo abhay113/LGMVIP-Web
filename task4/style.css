@@ -31,10 +31,11 @@ body {
 
 #result {
   width: 100%;
+  height: 56px;
   box-sizing: border-box;
-  margin-bottom: 10px;
-  padding: 5px;
-  font-size: 24px;
+  margin: 10px 0px;
+  font-size: 27px;
+  text-align: right;
 }
 
 .keypad {
@@ -50,7 +51,8 @@ button {
   padding: 10px;
   font-size: 24px;
   cursor: pointer;
-  width: 23%;
+
+  width: 70px;
   color: aliceblue;
   margin-bottom: 10px;
   background: #0000008a;
@@ -69,12 +71,8 @@ button:active {
 }
 
 #equal {
-  position: absolute;
-  right: 528px;
-  height: 109px;
-  width: 71px;
-  margin-left: 4px;
   background: #adadad;
+  height: 109px;
 }
 #equal:hover {
   background: #0000008a;
