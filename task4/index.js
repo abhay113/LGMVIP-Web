@@ -1,5 +1,5 @@
 let result = document.getElementById("result");
- 
+
 function appendValue(value) {
   result.value += value;
 }
